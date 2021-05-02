@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context=".Q1Fragment">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:layout_gravity="top"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="60dp"
+        android:text="Le meilleur joueur de monde 2021"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <RadioGroup
+        android:id="@+id/joueurs"
+        android:layout_width="match_parent"
+        android:layout_height="239dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="24dp"
+        android:layout_marginBottom="30dp">
+
+        <RadioButton
+            android:id="@+id/messi"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Leo Messi"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/ronaldo"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Cristiano Ronaldo"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/neymar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Neymar"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/Next"
+        android:layout_width="wrap_content"
+        android:layout_height="63dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="150dp"
+        android:text="Next" />
+
+
+</FrameLayout>

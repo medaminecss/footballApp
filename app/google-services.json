@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "154222383415",
+    "firebase_url": "https://questionnaire-d2a15-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "questionnaire-d2a15",
+    "storage_bucket": "questionnaire-d2a15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154222383415:android:6b99d3e75eb283f6e24ab2",
+        "android_client_info": {
+          "package_name": "com.example.appds"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154222383415-v588lgi1i1t3vbjeo3vi609uvotgbjie.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhvOjALe00XwapbXO2L3Ugwuhqme3EV4g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154222383415-v588lgi1i1t3vbjeo3vi609uvotgbjie.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

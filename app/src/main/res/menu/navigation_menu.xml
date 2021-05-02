@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Questions"/>
+    <item android:id="@+id/menu_Sjoueurs"
+        android:icon="@drawable/ic_baseline_equalizer_24"
+        android:title="stat Joueurs"/>
+    <item android:id="@+id/menu_Sequipe"
+        android:icon="@drawable/ic_baseline_equalizer_24"
+        android:title="Stat Equipes"/>
+
+</menu>

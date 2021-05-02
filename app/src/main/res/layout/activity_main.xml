@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    android:scrollbarSize="@dimen/fragment_vertical_margin"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="50dp"
+        android:text="meilleur joueur de monde 2021?"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/bn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="150dp"
+        android:text="Voter de puis ici"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginTop="30dp"
+        android:scrollbarSize="50dp"
+        app:srcCompat="@drawable/zoom_neymar__cristiano_ronaldo__messi____les_20_meilleurs_dribbleurs_actuels_"
+        tools:visibility="visible" />
+
+
+</RelativeLayout>
